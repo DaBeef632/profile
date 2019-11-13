@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:400,700,800&display=swap&subset=latin-ext');
+@import url(@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap&subset=latin-ext');
+
+
+head {
+
+ }
+
+.profile {
+  width: 300px;
+  text-align: center;
+  margin: 0px auto;
+  padding: 20;
+
+}
+.img-circle {
+  width: 100px;
+     border-radius: 50%;
+     border: 1px dotted black;
+ }
+
+ h1 {
+  width: 600px;
+  margin: 0 auto;
+  font-family: 'Libre Baskerville', serif;
+  color: #f8f8f8;
+  font-weight: 700;
+
+
+ }
+
+ h2{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-weight: 700
+  color: #f8f8f8;
+
+ }
+
+.subheader p{
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Yeon Sung', cursive;
+  color: #f7be16;
+  padding: 20px;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Yeon Sung', cursive;
+  color: #f8f8f8;
+  background-image: url(images/yaeesh-shifau-XQzktFXCBvs-unsplash.jpg)
+}
+.description {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left
+  font-family: 'Yeon Sung', cursive;
+  color: #f7be16;
+
+}
+.mylink {
+    width: 100px;
+    margin: 0 auto;
+    padding: 20;
+
+}
+
+.mylink a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin: 0 23px;
+  padding: 5px;
+  border: 1px solid #f8f8f8;
+  background-color: #f7be16;
+  color: #f8f8f8;
+  display: inline-block;
+
+}
+
+.mylink a:hover {
+     text-decoration: underline;
+}
+
+.socialmedia ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+  ul#horizontal-list li {
+    display: inline-flex;
+
+  }
